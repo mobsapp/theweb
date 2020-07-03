@@ -1,0 +1,49 @@
+
+body{
+   background-color:#f5f4f0;
+font-size:20px;
+font-family: Gill Sans Extrabold, sans-serif;
+text-align:center;
+}
+
+ #titlepart{
+  align-items: center;
+		background: #fff;
+		height: 100px;
+		margin-top:0px;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: 10001;
+		box-shadow: 0 0 10px 0 rgba(255, 0, 0, 0.075);
+		text-align: center;
+  
+}
+
+#titlepart h2{
+  color: #f6755e;
+			font-size: 2.5em;
+			letter-spacing: 2px;
+			text-decoration: none;
+  display:inline;
+  
+}
+
+div{
+	display:none;
+	text-align:center;
+}
+
+h3{
+	text-align:center;
+	font-family:Coronetscript, cursive;
+	
+	
+}
+h4{
+	color: #f6755e;
+			font-size: 1.8em;
+}
+#demo{
+	font-family:Coronetscript, cursive;
+}
