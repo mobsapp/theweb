@@ -7,10 +7,10 @@ function askname(){
 	var person = prompt("Please enter your name", "Student");
 
 if (person != null) {
-  document.getElementById("demo").innerHTML =
-  "Hi " + person + "! How are you today?";
+  document.getElementById("demo").innerHTML = person+"'s Profile & Project";
   
-  document.getElementById("setprofile").style.display = "block";
+  
+  document.getElementById("showprofile").style.display = "block";
 }
 	
 	
