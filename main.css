@@ -1,49 +1,67 @@
 
 body{
-   background-color:#f5f4f0;
-font-size:20px;
-font-family: Gill Sans Extrabold, sans-serif;
+   background-color:#f7f9fb;
+ /*font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;*/
+ /*font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif; font-size: 24px;*/
+ /*font-family: Copperplate, "Copperplate Gothic Light", fantasy;*/
+ font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 text-align:center;
 }
 
  #titlepart{
-  align-items: center;
-		background: #fff;
-		height: 100px;
-		margin-top:0px;
-		left: 0;
 		top: 0;
+		left: 0;
 		width: 100%;
 		z-index: 10001;
 		box-shadow: 0 0 10px 0 rgba(255, 0, 0, 0.075);
 		text-align: center;
+height: 100px;  
+			display: inline;
   
 }
-
-#titlepart h2{
-  color: #f6755e;
-			font-size: 2.5em;
+#titlepart h1{
+color: #31708e;
+			font-size: 50px;
 			letter-spacing: 2px;
 			text-decoration: none;
-  display:inline;
-  
+			padding: 10px 0px;
 }
 
-div{
+#changename{
+	background-color: #687864;
+	border-radius: 10px;
+	width: 200px;
+	height: 35px;
+	padding: 10px 0px 10px 0px;
+	color: #f7f9fb;
+	text-align:center;
+	margin: auto;
+}
+
+#jsdiv{
+	box-sizing: content-box;
+}
+
+#showprofile{
 	display:none;
 	text-align:center;
 }
 
 h3{
+	color: #5085a5;
 	text-align:center;
-	font-family:Coronetscript, cursive;
 	
 	
 }
 h4{
-	color: #f6755e;
+	color: #687864;
 			font-size: 1.8em;
 }
+
+ul{
+	font-size: 25px;
+}
+
 #demo{
-	font-family:Coronetscript, cursive;
+	font-size:45px;
 }
