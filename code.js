@@ -11,6 +11,7 @@ if (person != null) {
   
   
   document.getElementById("showprofile").style.display = "block";
+   document.getElementById("changename").style.display = "none";
 }
 	
 	
